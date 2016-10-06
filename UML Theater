@@ -1,0 +1,12 @@
+Theater
+
+-Name: string                                     name of the theater
+-Phone: string                                    phone number of the theater
+
++AddMovie(Movie& Movie): void                     add a movie at a specific time
++GetMovieForHour(Hour: int): string               return the movie shown at or after the given hour
+                                                    return "" if none are upcoming
++GetShowTimeForGenre(Genre: string): int          when will the movie of the given genre be shown
+                                                    return -1 if none exist
++GetPopcornPrice(): int                           make up a cost in dollars for popcorn
++GetCokePrice(): int                              make up a cost on Coke
