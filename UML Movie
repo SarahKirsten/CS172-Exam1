@@ -1,0 +1,11 @@
+Movie
+            
+-popcorn: double        price of popcorn
+-soda: double           price of Coca-Cola
+-Title: string          name of movie
+-Genre: string          default: comedy. options: action, comedy, horror, documentary
+-ShowTime: int          the time movie is showing
+
++GetTitle(): string     returns movie title
++GetGenre(): string     returns movie genre
++GetShowTime(): int     returns when the movie is showing
