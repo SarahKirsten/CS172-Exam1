@@ -15,7 +15,7 @@ using namespace std;
 int main()
 {
 	const int MOVIECOUNT = 11;
-	Movie movieListing[] = {
+	Movie movieListing[MOVIECOUNT] = {
 		Movie("Bull Durham", "Comedy", 0), Movie("Ocean's Eleven", "Action", 2),
 		Movie("Monte Python's Meaning of Life", "Comedy", 5), Movie("Jaws", "Horror", 7),
 		Movie("Fletch", "Comedy", 10), Movie("Usual Suspects", "Action", 12),

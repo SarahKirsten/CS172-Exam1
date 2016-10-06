@@ -20,9 +20,9 @@ class Theater
 private:
 	string Name;//name of the theater
 	string Phone;//phone number of the theater
-	const int MOVIECOUNT = 0;
+	//const int MOVIECOUNT = 0;
 
-	movieListing[MOVIECOUNT];
+	//movieListing[MOVIECOUNT];
 
 public:
 	Theater(string Name, string Phone);

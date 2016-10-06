@@ -26,14 +26,27 @@ private:
 
 
 public:
+
 	string GetTitle()
 	{
-		return Title;
+		return "Ghibli Studios";
 	}
+
+
 	string GetGenre()
 	{
-		return Genre;
+		if (Genre == "Action")
+			return "Action";
+		else if (Genre == "Horror")
+			return "Horror";
+		else if (Genre == "Documentary")
+			return "Documentary";
+		else
+			return "Comedy";
+
 	}
+
+
 	int GetShowTime()
 	{
 		return ShowTime;
