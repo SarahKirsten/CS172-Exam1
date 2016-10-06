@@ -20,24 +20,24 @@ class Theater
 private:
 	string Name;//name of the theater
 	string Phone;//phone number of the theater
-	//const int MOVIECOUNT = 0;
+	/*const int MOVIECOUNT = 0;
 
-	//movieListing[MOVIECOUNT];
+	movieListing[MOVIECOUNT];*/
 
 public:
 	Theater(string Name, string Phone);
 
 	void AddMovie(Movie& Movie)//add a movie at a specific time
 	{
-
+		
 	}
 	string GetMovieForHour(int Hour)//return movie shown at or after that time. return "" if none are upcoming
 	{
-
+		
 	}
 	int GetShowTimeForGenre(string Genre)//when will the movie of the given genre be shown/ return -1 if none exists
 	{
-
+		
 	}
 	int GetPopcornPrice()//make up cost in dollar for popcorn
 	{

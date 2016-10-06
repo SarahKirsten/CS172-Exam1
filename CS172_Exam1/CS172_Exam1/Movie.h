@@ -27,9 +27,11 @@ private:
 
 public:
 
+	Movie(string Title, string Genre, int ShowTime);
+
 	string GetTitle()
 	{
-		return "Ghibli Studios";
+		return Title;
 	}
 
 
