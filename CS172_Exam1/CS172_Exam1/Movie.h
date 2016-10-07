@@ -1,5 +1,5 @@
 //I affirm that all code given below was written solely by me, Sarah Kirsten, and that any help I received adhered to the rules stated for this exam.
-
+#pragma once
 #ifndef MOVIE_H
 #define MOVIE_H
 
@@ -10,6 +10,9 @@
 #include <string>
 #include <cstdlib>
 #include <fstream>
+#include <climits>
+
+#include "Theater.h"
 
 using namespace std;
 
@@ -18,41 +21,24 @@ using namespace std;
 class Movie
 {
 private:
-	int popcorn;
-	int soda;
-	string Title;
-	string Genre;
-	int ShowTime;
+
+	
 
 
 public:
+	static int popcorn;
+	static int soda;
+	static string Title;
+	static string Genre;
+	static int ShowTime;
+
+	Movie();
 
 	Movie(string Title, string Genre, int ShowTime);
 
-	string GetTitle()
-	{
-		return Title;
-	}
-
-
-	string GetGenre()
-	{
-		if (Genre == "Action")
-			return "Action";
-		else if (Genre == "Horror")
-			return "Horror";
-		else if (Genre == "Documentary")
-			return "Documentary";
-		else
-			return "Comedy";
-
-	}
-
-
-	int GetShowTime()
-	{
-		return ShowTime;
-	}
+	string GetTitle();
+	string GetGenre();
+	int GetShowTime();
 
 
 };

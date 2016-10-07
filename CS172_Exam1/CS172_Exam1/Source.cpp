@@ -8,10 +8,13 @@
 #include <string>
 #include <cstdlib>
 #include <fstream>
+#include <climits>
+
 
 #include "Movie.h"
 #include "Theater.h"
 using namespace std;
+
 int main()
 {
 	const int MOVIECOUNT = 11;
@@ -36,7 +39,7 @@ int main()
 		errors++;
 		cout << "error: not handling 25 correctly\n";
 	}
-	if (garland.GetMovieForHour(18) != "Monte Python's Meaning of Life") {
+	if (garland.GetMovieForHour(19) != "Monte Python's Meaning of Life") {
 		errors++;
 		cout << "error: incorrect movie for 18th hour\n";
 	}
